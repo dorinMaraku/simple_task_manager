@@ -5,7 +5,7 @@ const wrapper = document.querySelector(".wrapper")
 function runProgaram () {
     btn.addEventListener("click", () => {
         if (input.value === "") {
-        alert("Please enter a to-do")
+        alert("Please enter a task")
         }
         else {
             const newContainer = document.createElement("section")
