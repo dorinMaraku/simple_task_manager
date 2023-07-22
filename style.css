@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight:300;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.container {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    box-shadow: 0 0 3px;
+    background-color: rgba(211, 211, 211, 0.4);
+    padding: 30px;
+    margin-top: 30px;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container #input {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0 0 3px;
+    font-size: 1.2rem;
+    padding: 5px;
+    flex: 4;
+}
+
+.container #btn {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+    font-size: 1.2rem;
+    color: green;
+    flex: 1;
+    margin-left: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.container #btn:hover {
+    background-color: green;
+    color: white;
+}
+
+/* JS styling */
+span {
+    font-size: 1.2rem;
+    padding: 5px;
+    flex: 4;
+}
+
+.check-btn {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+    font-size: 1.2rem;
+    color: orange;
+    flex: 1;
+    margin-right: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.check-btn:hover {
+    color: white;
+    background-color: orange;
+}
+.delete-btn {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+    font-size: 1.2rem;
+    color: red;
+    flex: 1;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.delete-btn:hover {
+    color: white;
+    background-color: red;
+}
+
+
+
