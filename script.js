@@ -2,7 +2,7 @@ const input = document.querySelector("#input")
 const btn = document.getElementById("btn")
 const wrapper = document.querySelector(".wrapper")
 
-function runProgaram () {
+
     btn.addEventListener("click", () => {
         if (input.value === "") {
         alert("Please enter a task")
@@ -38,5 +38,3 @@ function runProgaram () {
 
         input.value = ""
     })
-}
-runProgaram()
